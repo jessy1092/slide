@@ -103,3 +103,32 @@ a {
     font-size: 100px;
 }
 
+#client_server div {
+    display: block;
+    float: left;
+    margin-left: 110px;
+}
+
+#client_server i {
+    font-size: 100px;
+}
+
+#client_server p {
+    margin-left: 10px;
+    font-size: 36px;
+}
+
+#browser_database div {
+    display: block;
+    float: left;
+    margin-left: 100px;
+}
+
+#browser_database i {
+    font-size: 100px;
+}
+
+#browser_database p {
+    /*margin-left: 10px;*/
+    font-size: 36px;
+}

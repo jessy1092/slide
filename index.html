@@ -10,9 +10,11 @@
         <meta name="author" content="Jessy Lee" />
         <link href="assets/styles/index.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="vendors/semantic-ui/0.17.0/css/semantic.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 
         <script type="text/javascript" src="vendors/jquery/1.11.1/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="vendors/semantic-ui/0.17.0/javascript/semantic.min.js"></script>
+
     </head>
     <body class="impress-not-supported">
         <div class="fallback-message">
@@ -43,22 +45,50 @@
             </div>
 
             <div id="desktop" class="step" data-x="0" data-y="0" data-scale="3">
-                <i class="big desktop icon"></i>
-                <i class="big resize horizontal icon"></i>
-                <i class="big desktop icon"></i>
+                <i class="desktop icon"></i>
+                <i class="resize horizontal icon"></i>
+                <i class="desktop icon"></i>
                 <div class="divid"></div>
-                <i class="big resize vertical icon"></i>
-                <i class="big cloud icon"></i>
-                <i class="big resize vertical icon"></i>
+                <i class="resize vertical icon"></i>
+                <i class="cloud icon"></i>
+                <i class="resize vertical icon"></i>
                 <div class="divid"></div>
-                <i class="big desktop icon"></i>
-                <i class="big resize horizontal icon"></i>
-                <i class="big desktop icon"></i>
+                <i class="desktop icon"></i>
+                <i class="resize horizontal icon"></i>
+                <i class="desktop icon"></i>
             </div>
 
+            <div id="client_server" class="step" data-x="0" data-y="0" data-z="-1000" data-rotate-y="90" data-scale="1" >
+                <div>
+                    <i class="fa fa-cubes"></i>
+                    <p>Server</p>
+                </div>
+                <div>
+                    <i class="resize horizontal icon"></i>
+                </div>
+                <div>
+                    <i class="desktop icon"></i>
+                    <p>Client</p>
+                </div>
+            </div>
+
+            <div id="browser_database" class="step" data-x="0" data-y="0" data-z="-2000" data-rotate-y="90" data-scale="1" >
+                <div>
+                    <i class="fa fa-database"></i>
+                    <p>Data Base</p>
+                </div>
+                <div>
+                    <i class="resize horizontal icon"></i>
+                </div>
+                <div>
+                    <i class="browser icon"></i>
+                    <p>Browser</p>
+                </div>
+            </div>
         </div>
 
-        <script src="vendors/impress/impress.js"></script>
-        <script>impress().init();</script>
+        <script type="text/javascript" src="vendors/impress/impress.js"></script>
+        <script type="text/javascript" src="assets/scripts/index.js"></script>
+
     </body>
 </html>
