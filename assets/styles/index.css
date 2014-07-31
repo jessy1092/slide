@@ -89,7 +89,7 @@ a {
     text-decoration: none;
 }
 
-#what p {
+.title p {
     display: block;
     font-size: 100px;
     margin-top: 230px;
@@ -132,18 +132,23 @@ a {
     font-size: 40px;
 }
 
-#what2 p {
-    display: block;
-    font-size: 100px;
-    margin-top: 230px;
-}
-
 .slide .header {
     width: 100px;
     margin-left: 70px;
     margin-top: 30px;
 }
 
-/*.webcando2 .leftContaint {
-    margin-top: -200px;
-}*/
+#how3 p {
+    display: block;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+#html code {
+    margin-top: 50px;
+}
+
+#html code div {
+    position: relative;
+    font-size: 36px;
+}
