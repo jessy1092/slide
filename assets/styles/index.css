@@ -183,3 +183,23 @@ a {
     margin-top: 400px;
     font-size: 30px;
 }
+
+#how5 p {
+    display: block;
+    font-size: 48px;
+    margin-top: 60px;
+}
+
+#tech3 li {
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+#tech3 .list {
+    float: left;
+}
+
+#tech3 .url {
+    margin-top: 400px;
+    font-size: 30px;
+}
